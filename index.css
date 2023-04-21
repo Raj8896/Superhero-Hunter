@@ -1,0 +1,96 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgb(226, 165, 11) , rgb(18, 82, 28));
+    background-size: cover;
+    font-family: cinzel;
+}
+      
+/*********************************    NavBar-Section   **********************************/
+    
+.navbar{
+    margin: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(226, 165, 11);
+    height: fit-content;
+}
+
+span{
+    color: darkred;
+}
+ 
+      
+#main-heading{
+    margin-left: -175px;
+    color: white;
+    font-size: 30px;
+} 
+#favourites{
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background: none;
+    border: 0; 
+}   
+#favourites:hover{
+    cursor: pointer;
+    color: rgb(18, 82, 28);
+}  
+#search-key{
+    margin-left: 30px;
+    margin:4px;
+    height: 25px;
+    width: 243px;
+    padding: 5px 15px;
+    border: 3px solid red;
+    border-radius: 20px;   
+}
+
+   /********************************* Superhero Lists **********************************/
+
+#display ol {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: 95vw;
+    overflow: auto;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.container button{
+    border:0;
+    background:none;
+    color:whitesmoke;
+    cursor:pointer;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    align-items: center;
+    margin-top: 10px;  
+}
+.container button:hover{
+    cursor: pointer;
+    color: rgb(241, 127, 146);
+}
+#superhero-list{
+    height: 81vh;
+    width: fit-content;
+} 
+#superhero-list::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,101 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgb(226, 165, 11) , rgb(18, 82, 28));
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+ /********************************* NavBar Section **********************************/
+
+.navbar{
+    margin: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(226, 165, 11);
+    height: fit-content;
+
+}
+.nav-section img{
+    height: 50px;
+    margin-left: 125px;
+    margin-top: 5px;
+}
+#main-heading{
+    margin-left: 45px;
+    color: white;
+    font-size: 30px;
+} 
+#home_button{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background: none;
+    border: 0;
+}
+#home_button:hover{
+    cursor: pointer;
+    color: rgb(18, 82, 28);
+}
+
+#main-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: yellow;
+    font-size: 15px;
+}
+
+#main-container h4{
+    align-items: center;
+    width: fit-content;
+    font-size:40px;
+    color: yellow;
+    
+}
+.link{
+    font-family: serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+#favourites{
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background: none;
+    border: 0; 
+}   
+#favourites:hover{
+    cursor: pointer;
+    color: rgb(18, 82, 28);
+}  
+ 
+   /********************************* Mark As Favourite Button **********************************/
+         
+#heart{
+    align-items: center;
+    margin-left: 38.5rem;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background: none;
+    border: 0; 
+}
+
+#heart:hover{
+    color:red;
+    cursor: pointer;
+}
